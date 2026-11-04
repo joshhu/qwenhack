@@ -1,0 +1,7 @@
+tmpcode/
+.venv/
+data/
+logs/
+__pycache__/
+raw/
+results_smoke/

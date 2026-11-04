@@ -1,0 +1,14 @@
+[project]
+name = "qwenhack"
+version = "0.1.0"
+description = "Local reproduction of the Qwen3.8-Flash-Next sandbox upload trace (Cohere, Oct 2026)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyarrow>=26.0.1",
+    "requests>=2.34.2",
+    "tokenizers>=0.23.3",
+]
+
+[tool.uv]
+package = false
